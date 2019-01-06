@@ -70,7 +70,7 @@ ul li {
 #sub-btn input {
   margin: 5px;
   padding:10px 15px;
-  border: none;
+  border: 1px solid transparent;
   background-color: #F2F2F2;
   border-radius: 2px;
   font-weight: bold;
