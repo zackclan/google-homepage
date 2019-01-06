@@ -1,0 +1,126 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding: 0;
+    margin:0;
+}
+
+
+#sign-in {
+  background-color: rgba(66, 133, 244);
+  color: #FFF;
+  padding: 7px 10px;
+  border-radius: 1px;
+  font-weight: bold;
+}
+
+#search{
+    width:460px;
+    height: 34px;
+}
+#sub-btn{
+    margin: 25px;
+    margin-top:30px;
+}
+.logo {
+    display: inline-block;
+}
+#searchform {
+    border: 1px solid #b3b3b3;
+    margin: 15px auto;
+    width: 470px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #b3b3b3;
+  }
+#searchform:hover {
+  box-shadow: 2px 4px 4px #b3b3b3;
+}
+
+#container{
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 80px;
+}
+
+.parent{
+    text-align: center
+}
+#glogo {
+    margin-top:150px;
+    margin-bottom:25px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px;
+}
+ul li {
+    display: inline-block;
+    margin:5px 10px;
+}
+.g-app {
+    height: 15px;
+    width: 15px;
+    opacity: 0.5;
+  }
+.r-link {
+    float:right;
+  padding-right: 5px;
+}
+#sub-btn input {
+  margin: 5px;
+  padding:10px 15px;
+  border: none;
+  background-color: #F2F2F2;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #757575;
+}
+#sign-in:hover {
+  text-decoration: none;
+}
+.g-app:hover {
+   opacity: 1;
+}
+
+#sign-in:active {
+  background-color: rgb(0, 0, 156);
+  border-top: 2px solid rgb(0, 0, 77);
+}
+
+
+#sub-btn input:hover {
+  border: 1px solid #757575;
+}
+
+ul li a:link {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li a:active {
+  color: #000;
+}
+
+ul li a:visited {
+  color: #000;
+}
+
+footer ul li a:active {
+  color: #F00;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: #F2F2F2;
+}
+
+footer ul {
+  margin: 7px 15px;
+}
